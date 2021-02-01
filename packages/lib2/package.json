@@ -1,0 +1,15 @@
+{
+  "name": "lib2",
+  "version": "0.0.0",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {
+    "lib1": "0.0.0",
+    "react": "17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.0",
+    "typescript": "4.1.3"
+  }
+}

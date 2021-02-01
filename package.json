@@ -1,0 +1,10 @@
+{
+  "name": "issue-repo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc --build"
+  }
+}

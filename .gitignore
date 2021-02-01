@@ -19,6 +19,7 @@ yarn-error.log*
 /packages/*/build/
 /packages/*/dist/
 /packages/*/lib/
+*.tsbuildinfo
 
 # Dependencies
 **/node_modules
