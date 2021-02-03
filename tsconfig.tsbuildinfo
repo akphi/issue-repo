@@ -1,0 +1,920 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "signature": "69f0c334b0ee4235f6219b22f42e4fa04b414535c782b4dda793ed1918cc835c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "signature": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2020.d.ts": {
+        "version": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "signature": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "signature": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "signature": "abadddbf660adeec27e9a56584907d52fa1d6e1e1dc49f639a921baa951b7a84",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "signature": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.webworker.d.ts": {
+        "version": "d236c5185ed53b51f7aae967ffdc8556aa1e38a2a116ed984cf40808f5724499",
+        "signature": "d236c5185ed53b51f7aae967ffdc8556aa1e38a2a116ed984cf40808f5724499",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "signature": "097a57355ded99c68e6df1b738990448e0bf170e606707df5a7c0481ff2427cd",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "signature": "7207e317a2cb07a177e7d963ab7b8c0e85dde7f9ddb50351f830239bf597569e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "signature": "cb609802a8698aa28b9c56331d4b53f590ca3c1c3a255350304ae3d06017779d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "signature": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "signature": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "signature": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "signature": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.promise.d.ts": {
+        "version": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "signature": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts": {
+        "version": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "signature": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.string.d.ts": {
+        "version": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "signature": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
+        "version": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "signature": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.intl.d.ts": {
+        "version": "31e8df2398e328077079c17ea4f1664bad0a34adf8b0608837e504e310e329a1",
+        "signature": "31e8df2398e328077079c17ea4f1664bad0a34adf8b0608837e504e310e329a1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.string.d.ts": {
+        "version": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "signature": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.promise.d.ts": {
+        "version": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "signature": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.weakref.d.ts": {
+        "version": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/mobx/dist/utils/global.d.ts": {
+        "version": "309826fb90e96f68a9939d92fdbf9393b9d18733ccfa4a963da9978ff268806f",
+        "signature": "309826fb90e96f68a9939d92fdbf9393b9d18733ccfa4a963da9978ff268806f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/errors.d.ts": {
+        "version": "d4e636c05c8eb2ae83d36d8619742b80900c09de72efc041b737621427dd332c",
+        "signature": "d4e636c05c8eb2ae83d36d8619742b80900c09de72efc041b737621427dd332c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/utils/utils.d.ts": {
+        "version": "15b1ce95deb05a0143feec9f9c460390f1b4662bda56220f2aa508f488f9f5b9",
+        "signature": "15b1ce95deb05a0143feec9f9c460390f1b4662bda56220f2aa508f488f9f5b9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/decorators.d.ts": {
+        "version": "3f88cb0ddfe657cdde727017f592b2a2642428527616ca62afab59dd35e8c3c9",
+        "signature": "3f88cb0ddfe657cdde727017f592b2a2642428527616ca62afab59dd35e8c3c9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/atom.d.ts": {
+        "version": "85d754bb24bb5342198af6e06288709c4cae074522ac293cfb8c7f6a5fd181b4",
+        "signature": "85d754bb24bb5342198af6e06288709c4cae074522ac293cfb8c7f6a5fd181b4",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/utils/comparer.d.ts": {
+        "version": "3c75e3d745d33073a483d76562fb1b102dd9225f00426a8d69704856feba1362",
+        "signature": "3c75e3d745d33073a483d76562fb1b102dd9225f00426a8d69704856feba1362",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/modifiers.d.ts": {
+        "version": "6d6a482bf0d024ca0f57d75d61606aa49652d8f29304795786d9c23ac608128e",
+        "signature": "6d6a482bf0d024ca0f57d75d61606aa49652d8f29304795786d9c23ac608128e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/observable.d.ts": {
+        "version": "5c1fc5c7fc1df373d8469ccc4f7221c415b5218c17c74a9e6a6f49cf5911f4c1",
+        "signature": "5c1fc5c7fc1df373d8469ccc4f7221c415b5218c17c74a9e6a6f49cf5911f4c1",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/computed.d.ts": {
+        "version": "c0c6c867f97808b94c276de8765176a36e2d3fce2e5f8a0c488fdc176deb471b",
+        "signature": "c0c6c867f97808b94c276de8765176a36e2d3fce2e5f8a0c488fdc176deb471b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/action.d.ts": {
+        "version": "57d00290bdda99d710691adfb4aa9695671f81597ec04fec7a0620edbfdb9951",
+        "signature": "57d00290bdda99d710691adfb4aa9695671f81597ec04fec7a0620edbfdb9951",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/observablevalue.d.ts": {
+        "version": "6636f284f5936f0a7f3f795d80b9503339ddfc8c0743aa4627d01e2535c76614",
+        "signature": "6636f284f5936f0a7f3f795d80b9503339ddfc8c0743aa4627d01e2535c76614",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/computedvalue.d.ts": {
+        "version": "48c24c53300d649785d967df49f85e8e1285cdc63e9b49073d5b7fcf8710e504",
+        "signature": "48c24c53300d649785d967df49f85e8e1285cdc63e9b49073d5b7fcf8710e504",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/derivation.d.ts": {
+        "version": "2a5bd662e144cec9cb96d98f4adca3071646eb7b6b473645004583809fd136a8",
+        "signature": "2a5bd662e144cec9cb96d98f4adca3071646eb7b6b473645004583809fd136a8",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/globalstate.d.ts": {
+        "version": "7d9fef1acd945d1616398b620e10d8576ad5244ebb81335de1cca42ac13dfad0",
+        "signature": "7d9fef1acd945d1616398b620e10d8576ad5244ebb81335de1cca42ac13dfad0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/observable.d.ts": {
+        "version": "f3d9cd36079fb7387dd5dca7f3eb5246e8011810ac255455eaae4aefeb692376",
+        "signature": "f3d9cd36079fb7387dd5dca7f3eb5246e8011810ac255455eaae4aefeb692376",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/reaction.d.ts": {
+        "version": "7ca987661c8643e5dcda9c6ad1438e04c937b66cafd8ada5bf315c7a9287a542",
+        "signature": "7ca987661c8643e5dcda9c6ad1438e04c937b66cafd8ada5bf315c7a9287a542",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/observableobject.d.ts": {
+        "version": "06320f06f354b619412bfd05ca2e045d891733f2ffdf7e26e9bfb98db6c070c3",
+        "signature": "06320f06f354b619412bfd05ca2e045d891733f2ffdf7e26e9bfb98db6c070c3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/observablearray.d.ts": {
+        "version": "8c9c0eb5a38adfabd71afd211daf9e21c3811ccd844124d6f27b2092b856dafc",
+        "signature": "8c9c0eb5a38adfabd71afd211daf9e21c3811ccd844124d6f27b2092b856dafc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/core/spy.d.ts": {
+        "version": "657f9777372bf92a55617079159138cb3919351a6d90fb71a5a0654b0974aff2",
+        "signature": "657f9777372bf92a55617079159138cb3919351a6d90fb71a5a0654b0974aff2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/action.d.ts": {
+        "version": "99526dc53f63d8528ab39d3662fd222c4b1c5f9474bc2ad017e9e0fb3e797c6e",
+        "signature": "99526dc53f63d8528ab39d3662fd222c4b1c5f9474bc2ad017e9e0fb3e797c6e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/autorun.d.ts": {
+        "version": "63be5f64218cc19783c41480f9aa31f2289818a7650871eec2da07f4c090baf2",
+        "signature": "63be5f64218cc19783c41480f9aa31f2289818a7650871eec2da07f4c090baf2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/become-observed.d.ts": {
+        "version": "46c84534e9b398ba712324c2b8ae703e53641c8f2fa840d0ccd16e2be530099f",
+        "signature": "46c84534e9b398ba712324c2b8ae703e53641c8f2fa840d0ccd16e2be530099f",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/configure.d.ts": {
+        "version": "a58d37d87df19f3879efc8d22e3a9fbf3e32dcb738035921dc867bf1eba57374",
+        "signature": "a58d37d87df19f3879efc8d22e3a9fbf3e32dcb738035921dc867bf1eba57374",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/extendobservable.d.ts": {
+        "version": "3f1552379dfa6257deb6c6ef0eebbb187d1cc8075234d9b8d420f775397ef54c",
+        "signature": "3f1552379dfa6257deb6c6ef0eebbb187d1cc8075234d9b8d420f775397ef54c",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/extras.d.ts": {
+        "version": "7f9fe820d81bda269cc391612512d2ba6cce48b0a4299c481cf1cf840a3930a3",
+        "signature": "7f9fe820d81bda269cc391612512d2ba6cce48b0a4299c481cf1cf840a3930a3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/flow.d.ts": {
+        "version": "bd53d2ad9118291d951924a37fad0cac8ce95c1821213cb213bcd6ea83f8d7bd",
+        "signature": "bd53d2ad9118291d951924a37fad0cac8ce95c1821213cb213bcd6ea83f8d7bd",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/intercept-read.d.ts": {
+        "version": "759e18015145eba06f5312e1cf6622c1825965c33fef893f781215536d770283",
+        "signature": "759e18015145eba06f5312e1cf6622c1825965c33fef893f781215536d770283",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/intercept.d.ts": {
+        "version": "59af23cbad181189a6eb56c2ef3dedbd73ac3e96d7df9de6cb0e2917e3a721d0",
+        "signature": "59af23cbad181189a6eb56c2ef3dedbd73ac3e96d7df9de6cb0e2917e3a721d0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/iscomputed.d.ts": {
+        "version": "a04efac241a7f3e694770e84b5a9855a71817240ede85b493c48ce58402cc0ff",
+        "signature": "a04efac241a7f3e694770e84b5a9855a71817240ede85b493c48ce58402cc0ff",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/isobservable.d.ts": {
+        "version": "3b5b9dbbd624afd6e3f249fbacbbfc519f3229e3e2b6d3beabdbe77da8fa54e7",
+        "signature": "3b5b9dbbd624afd6e3f249fbacbbfc519f3229e3e2b6d3beabdbe77da8fa54e7",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/object-api.d.ts": {
+        "version": "4aed95a16e57d77dfc22357c376f74fb12bd95cb2de02d199a724364d5820640",
+        "signature": "4aed95a16e57d77dfc22357c376f74fb12bd95cb2de02d199a724364d5820640",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/observe.d.ts": {
+        "version": "206b9753a03a4797a39e956cde22381fedc30d4271e94d53b9a00b4bfaf4ae56",
+        "signature": "206b9753a03a4797a39e956cde22381fedc30d4271e94d53b9a00b4bfaf4ae56",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/tojs.d.ts": {
+        "version": "9482103b99962a1ad6969afb0acd779e808372ea5a720204e3b8b0f641a58fe2",
+        "signature": "9482103b99962a1ad6969afb0acd779e808372ea5a720204e3b8b0f641a58fe2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/trace.d.ts": {
+        "version": "db7b6042637d186d3363793d0fbb3d0e373d0deeac3da65443c261d4bc46b029",
+        "signature": "db7b6042637d186d3363793d0fbb3d0e373d0deeac3da65443c261d4bc46b029",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/transaction.d.ts": {
+        "version": "d7f641689a018709dde4aa233b6a79cb0250454c043cdac6749583381d23de43",
+        "signature": "d7f641689a018709dde4aa233b6a79cb0250454c043cdac6749583381d23de43",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/when.d.ts": {
+        "version": "a2c383ca13a0cb5b302e132c0fc4ee5c7a90b7f04169ea3e6e46810196eb2ffa",
+        "signature": "a2c383ca13a0cb5b302e132c0fc4ee5c7a90b7f04169ea3e6e46810196eb2ffa",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/dynamicobject.d.ts": {
+        "version": "ab274ebcffc6d8f0083b1f4f3001e313fc4a717ba0842af66209d2bc33a19edc",
+        "signature": "ab274ebcffc6d8f0083b1f4f3001e313fc4a717ba0842af66209d2bc33a19edc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/intercept-utils.d.ts": {
+        "version": "7816fffa1ebead1693fedd8788e9f6910d5f0024686b124f97881a78690a7342",
+        "signature": "7816fffa1ebead1693fedd8788e9f6910d5f0024686b124f97881a78690a7342",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/listen-utils.d.ts": {
+        "version": "741b6af2eaf3686af0936b8f53382a7c5af131aa7e4d8b503442b0245ff8d559",
+        "signature": "741b6af2eaf3686af0936b8f53382a7c5af131aa7e4d8b503442b0245ff8d559",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/makeobservable.d.ts": {
+        "version": "58a5a0fa246bacea3574fa8f3691faea9b4f7338db94e48ac8d10f7938a0313a",
+        "signature": "58a5a0fa246bacea3574fa8f3691faea9b4f7338db94e48ac8d10f7938a0313a",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/observablemap.d.ts": {
+        "version": "5b12c9144ea12679be41636fd4f429067d1b6f9cb8dbcaed3e02ea1e7a24c4cb",
+        "signature": "5b12c9144ea12679be41636fd4f429067d1b6f9cb8dbcaed3e02ea1e7a24c4cb",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/observableset.d.ts": {
+        "version": "eef96bb822e37110e957309887463672d202340f60285e0cbe61789ab0f87dc0",
+        "signature": "eef96bb822e37110e957309887463672d202340f60285e0cbe61789ab0f87dc0",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/legacyobservablearray.d.ts": {
+        "version": "7e890659a6a793813ae1c5df120448c8405bc5c33214f770c6d644408d973e3e",
+        "signature": "7e890659a6a793813ae1c5df120448c8405bc5c33214f770c6d644408d973e3e",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/types/type-utils.d.ts": {
+        "version": "4cb1693fc34b6cc2028ab5cbf7dcbd4a1b853f13c2afbd7466c66b42a0f1b5cc",
+        "signature": "4cb1693fc34b6cc2028ab5cbf7dcbd4a1b853f13c2afbd7466c66b42a0f1b5cc",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/utils/eq.d.ts": {
+        "version": "4955d78c2f85736fa15d74e28b98c24aff034506f64c91bb54ca6723060888c2",
+        "signature": "4955d78c2f85736fa15d74e28b98c24aff034506f64c91bb54ca6723060888c2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/utils/iterable.d.ts": {
+        "version": "a159c966585bef317df776d0b2db3268f84c80184c6ae20e44041bc2ed6841c6",
+        "signature": "a159c966585bef317df776d0b2db3268f84c80184c6ae20e44041bc2ed6841c6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/api/annotation.d.ts": {
+        "version": "fa31a49ddf84d79e35f9805a46d1bcfa1cd792ed5f94b6b98f74a955f24f4856",
+        "signature": "fa31a49ddf84d79e35f9805a46d1bcfa1cd792ed5f94b6b98f74a955f24f4856",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/internal.d.ts": {
+        "version": "6aaa9207c57d9cb2da3314afa0e66c171e75c0e64504953e6b439e229196eb68",
+        "signature": "6aaa9207c57d9cb2da3314afa0e66c171e75c0e64504953e6b439e229196eb68",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/mobx/dist/mobx.d.ts": {
+        "version": "4461a8a519f9629c8dfecce9c7b8c732f41083cff8ab79559e790afb2654c88d",
+        "signature": "4461a8a519f9629c8dfecce9c7b8c732f41083cff8ab79559e790afb2654c88d",
+        "affectsGlobalScope": false
+      },
+      "./src/index.ts": {
+        "version": "12984ff7eda517856667b50ffce2eb0cede49e22aff3477856a2319165da8537",
+        "signature": "f667f6b1d66ba55f0dcd27f5ff050063fecfe289bad00e8c5d48344a775c1439",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.dom.iterable.d.ts",
+        "lib.esnext.d.ts",
+        "lib.webworker.d.ts",
+        "lib.scripthost.d.ts"
+      ],
+      "composite": true,
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "target": 99,
+      "module": 99,
+      "skipLibCheck": true,
+      "moduleResolution": 2,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "importsNotUsedAsValues": 2,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "useDefineForClassFields": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "./lib",
+      "rootDir": "./src",
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./node_modules/mobx/dist/api/action.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/autorun.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/become-observed.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/computed.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/decorators.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/extendobservable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/flow.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/intercept-read.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/intercept.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/makeobservable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/object-api.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/observable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/observe.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/when.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/action.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/atom.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/computedvalue.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/derivation.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/globalstate.d.ts": [
+        "./node_modules/mobx/dist/core/computedvalue.d.ts",
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/observable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/reaction.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/spy.d.ts": [
+        "./node_modules/mobx/dist/core/computedvalue.d.ts",
+        "./node_modules/mobx/dist/internal.d.ts",
+        "./node_modules/mobx/dist/types/observablearray.d.ts",
+        "./node_modules/mobx/dist/types/observableobject.d.ts",
+        "./node_modules/mobx/dist/types/observablevalue.d.ts"
+      ],
+      "./node_modules/mobx/dist/internal.d.ts": [
+        "./node_modules/mobx/dist/api/action.d.ts",
+        "./node_modules/mobx/dist/api/annotation.d.ts",
+        "./node_modules/mobx/dist/api/autorun.d.ts",
+        "./node_modules/mobx/dist/api/become-observed.d.ts",
+        "./node_modules/mobx/dist/api/computed.d.ts",
+        "./node_modules/mobx/dist/api/configure.d.ts",
+        "./node_modules/mobx/dist/api/decorators.d.ts",
+        "./node_modules/mobx/dist/api/extendobservable.d.ts",
+        "./node_modules/mobx/dist/api/extras.d.ts",
+        "./node_modules/mobx/dist/api/flow.d.ts",
+        "./node_modules/mobx/dist/api/intercept-read.d.ts",
+        "./node_modules/mobx/dist/api/intercept.d.ts",
+        "./node_modules/mobx/dist/api/iscomputed.d.ts",
+        "./node_modules/mobx/dist/api/isobservable.d.ts",
+        "./node_modules/mobx/dist/api/makeobservable.d.ts",
+        "./node_modules/mobx/dist/api/object-api.d.ts",
+        "./node_modules/mobx/dist/api/observable.d.ts",
+        "./node_modules/mobx/dist/api/observe.d.ts",
+        "./node_modules/mobx/dist/api/tojs.d.ts",
+        "./node_modules/mobx/dist/api/trace.d.ts",
+        "./node_modules/mobx/dist/api/transaction.d.ts",
+        "./node_modules/mobx/dist/api/when.d.ts",
+        "./node_modules/mobx/dist/core/action.d.ts",
+        "./node_modules/mobx/dist/core/atom.d.ts",
+        "./node_modules/mobx/dist/core/computedvalue.d.ts",
+        "./node_modules/mobx/dist/core/derivation.d.ts",
+        "./node_modules/mobx/dist/core/globalstate.d.ts",
+        "./node_modules/mobx/dist/core/observable.d.ts",
+        "./node_modules/mobx/dist/core/reaction.d.ts",
+        "./node_modules/mobx/dist/core/spy.d.ts",
+        "./node_modules/mobx/dist/errors.d.ts",
+        "./node_modules/mobx/dist/types/dynamicobject.d.ts",
+        "./node_modules/mobx/dist/types/intercept-utils.d.ts",
+        "./node_modules/mobx/dist/types/legacyobservablearray.d.ts",
+        "./node_modules/mobx/dist/types/listen-utils.d.ts",
+        "./node_modules/mobx/dist/types/modifiers.d.ts",
+        "./node_modules/mobx/dist/types/observablearray.d.ts",
+        "./node_modules/mobx/dist/types/observablemap.d.ts",
+        "./node_modules/mobx/dist/types/observableobject.d.ts",
+        "./node_modules/mobx/dist/types/observableset.d.ts",
+        "./node_modules/mobx/dist/types/observablevalue.d.ts",
+        "./node_modules/mobx/dist/types/type-utils.d.ts",
+        "./node_modules/mobx/dist/utils/comparer.d.ts",
+        "./node_modules/mobx/dist/utils/eq.d.ts",
+        "./node_modules/mobx/dist/utils/global.d.ts",
+        "./node_modules/mobx/dist/utils/iterable.d.ts",
+        "./node_modules/mobx/dist/utils/utils.d.ts"
+      ],
+      "./node_modules/mobx/dist/mobx.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/intercept-utils.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/legacyobservablearray.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/listen-utils.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observablearray.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observablemap.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observableobject.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observableset.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observablevalue.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/type-utils.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./src/index.ts": [
+        "./node_modules/mobx/dist/mobx.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "./node_modules/mobx/dist/api/action.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/autorun.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/become-observed.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/computed.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/decorators.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/extendobservable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/flow.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/intercept-read.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/intercept.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/makeobservable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/object-api.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/observable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/observe.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/api/when.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/action.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/atom.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/computedvalue.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/derivation.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/globalstate.d.ts": [
+        "./node_modules/mobx/dist/core/computedvalue.d.ts",
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/observable.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/reaction.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/core/spy.d.ts": [
+        "./node_modules/mobx/dist/core/computedvalue.d.ts",
+        "./node_modules/mobx/dist/internal.d.ts",
+        "./node_modules/mobx/dist/types/observablearray.d.ts",
+        "./node_modules/mobx/dist/types/observableobject.d.ts",
+        "./node_modules/mobx/dist/types/observablevalue.d.ts"
+      ],
+      "./node_modules/mobx/dist/internal.d.ts": [
+        "./node_modules/mobx/dist/api/action.d.ts",
+        "./node_modules/mobx/dist/api/annotation.d.ts",
+        "./node_modules/mobx/dist/api/autorun.d.ts",
+        "./node_modules/mobx/dist/api/become-observed.d.ts",
+        "./node_modules/mobx/dist/api/computed.d.ts",
+        "./node_modules/mobx/dist/api/configure.d.ts",
+        "./node_modules/mobx/dist/api/decorators.d.ts",
+        "./node_modules/mobx/dist/api/extendobservable.d.ts",
+        "./node_modules/mobx/dist/api/extras.d.ts",
+        "./node_modules/mobx/dist/api/flow.d.ts",
+        "./node_modules/mobx/dist/api/intercept-read.d.ts",
+        "./node_modules/mobx/dist/api/intercept.d.ts",
+        "./node_modules/mobx/dist/api/iscomputed.d.ts",
+        "./node_modules/mobx/dist/api/isobservable.d.ts",
+        "./node_modules/mobx/dist/api/makeobservable.d.ts",
+        "./node_modules/mobx/dist/api/object-api.d.ts",
+        "./node_modules/mobx/dist/api/observable.d.ts",
+        "./node_modules/mobx/dist/api/observe.d.ts",
+        "./node_modules/mobx/dist/api/tojs.d.ts",
+        "./node_modules/mobx/dist/api/trace.d.ts",
+        "./node_modules/mobx/dist/api/transaction.d.ts",
+        "./node_modules/mobx/dist/api/when.d.ts",
+        "./node_modules/mobx/dist/core/action.d.ts",
+        "./node_modules/mobx/dist/core/atom.d.ts",
+        "./node_modules/mobx/dist/core/computedvalue.d.ts",
+        "./node_modules/mobx/dist/core/derivation.d.ts",
+        "./node_modules/mobx/dist/core/globalstate.d.ts",
+        "./node_modules/mobx/dist/core/observable.d.ts",
+        "./node_modules/mobx/dist/core/reaction.d.ts",
+        "./node_modules/mobx/dist/core/spy.d.ts",
+        "./node_modules/mobx/dist/errors.d.ts",
+        "./node_modules/mobx/dist/types/dynamicobject.d.ts",
+        "./node_modules/mobx/dist/types/intercept-utils.d.ts",
+        "./node_modules/mobx/dist/types/legacyobservablearray.d.ts",
+        "./node_modules/mobx/dist/types/listen-utils.d.ts",
+        "./node_modules/mobx/dist/types/modifiers.d.ts",
+        "./node_modules/mobx/dist/types/observablearray.d.ts",
+        "./node_modules/mobx/dist/types/observablemap.d.ts",
+        "./node_modules/mobx/dist/types/observableobject.d.ts",
+        "./node_modules/mobx/dist/types/observableset.d.ts",
+        "./node_modules/mobx/dist/types/observablevalue.d.ts",
+        "./node_modules/mobx/dist/types/type-utils.d.ts",
+        "./node_modules/mobx/dist/utils/comparer.d.ts",
+        "./node_modules/mobx/dist/utils/eq.d.ts",
+        "./node_modules/mobx/dist/utils/global.d.ts",
+        "./node_modules/mobx/dist/utils/iterable.d.ts",
+        "./node_modules/mobx/dist/utils/utils.d.ts"
+      ],
+      "./node_modules/mobx/dist/mobx.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/intercept-utils.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/legacyobservablearray.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/listen-utils.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observablearray.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observablemap.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observableobject.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observableset.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/observablevalue.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ],
+      "./node_modules/mobx/dist/types/type-utils.d.ts": [
+        "./node_modules/mobx/dist/internal.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/mobx/dist/api/action.d.ts",
+      "./node_modules/mobx/dist/api/annotation.d.ts",
+      "./node_modules/mobx/dist/api/autorun.d.ts",
+      "./node_modules/mobx/dist/api/become-observed.d.ts",
+      "./node_modules/mobx/dist/api/computed.d.ts",
+      "./node_modules/mobx/dist/api/configure.d.ts",
+      "./node_modules/mobx/dist/api/decorators.d.ts",
+      "./node_modules/mobx/dist/api/extendobservable.d.ts",
+      "./node_modules/mobx/dist/api/extras.d.ts",
+      "./node_modules/mobx/dist/api/flow.d.ts",
+      "./node_modules/mobx/dist/api/intercept-read.d.ts",
+      "./node_modules/mobx/dist/api/intercept.d.ts",
+      "./node_modules/mobx/dist/api/iscomputed.d.ts",
+      "./node_modules/mobx/dist/api/isobservable.d.ts",
+      "./node_modules/mobx/dist/api/makeobservable.d.ts",
+      "./node_modules/mobx/dist/api/object-api.d.ts",
+      "./node_modules/mobx/dist/api/observable.d.ts",
+      "./node_modules/mobx/dist/api/observe.d.ts",
+      "./node_modules/mobx/dist/api/tojs.d.ts",
+      "./node_modules/mobx/dist/api/trace.d.ts",
+      "./node_modules/mobx/dist/api/transaction.d.ts",
+      "./node_modules/mobx/dist/api/when.d.ts",
+      "./node_modules/mobx/dist/core/action.d.ts",
+      "./node_modules/mobx/dist/core/atom.d.ts",
+      "./node_modules/mobx/dist/core/computedvalue.d.ts",
+      "./node_modules/mobx/dist/core/derivation.d.ts",
+      "./node_modules/mobx/dist/core/globalstate.d.ts",
+      "./node_modules/mobx/dist/core/observable.d.ts",
+      "./node_modules/mobx/dist/core/reaction.d.ts",
+      "./node_modules/mobx/dist/core/spy.d.ts",
+      "./node_modules/mobx/dist/errors.d.ts",
+      "./node_modules/mobx/dist/internal.d.ts",
+      "./node_modules/mobx/dist/mobx.d.ts",
+      "./node_modules/mobx/dist/types/dynamicobject.d.ts",
+      "./node_modules/mobx/dist/types/intercept-utils.d.ts",
+      "./node_modules/mobx/dist/types/legacyobservablearray.d.ts",
+      "./node_modules/mobx/dist/types/listen-utils.d.ts",
+      "./node_modules/mobx/dist/types/modifiers.d.ts",
+      "./node_modules/mobx/dist/types/observablearray.d.ts",
+      "./node_modules/mobx/dist/types/observablemap.d.ts",
+      "./node_modules/mobx/dist/types/observableobject.d.ts",
+      "./node_modules/mobx/dist/types/observableset.d.ts",
+      "./node_modules/mobx/dist/types/observablevalue.d.ts",
+      "./node_modules/mobx/dist/types/type-utils.d.ts",
+      "./node_modules/mobx/dist/utils/comparer.d.ts",
+      "./node_modules/mobx/dist/utils/eq.d.ts",
+      "./node_modules/mobx/dist/utils/global.d.ts",
+      "./node_modules/mobx/dist/utils/iterable.d.ts",
+      "./node_modules/mobx/dist/utils/utils.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.promise.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.string.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
+      "./node_modules/typescript/lib/lib.scripthost.d.ts",
+      "./node_modules/typescript/lib/lib.webworker.d.ts",
+      "./src/index.ts"
+    ]
+  },
+  "version": "4.1.2"
+}
