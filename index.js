@@ -1,10 +1,23 @@
 const { makeObservable, observable, action } = require("mobx");
 
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      writable: true,
+      configurable: true,
+    });
+  } else {
+    obj[key] = value;
+  }
+  return obj;
+}
 class Person {
-  bio = {
+  bio = [{
     name: 'John',
     age: 12,
-  }
+  }];
 
   constructor() {
     makeObservable(this, {
@@ -23,8 +36,13 @@ class Person {
 }
 
 const person = new Person();
-person.setBio({
-  car: 'F1',
-});
+person.setBio([
+  {
+    car: "F1",
+  },
+  {
+    car: "F1",
+  },
+]);
 person.freeze();
-console.log('asdasd');
+console.log("asdasd");
