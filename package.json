@@ -1,0 +1,14 @@
+{
+  "name": "issue-repo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "doSomething": "yarn workspaces foreach --verbose run doSomething",
+    "doSomething:all": "yarn workspaces foreach --exclude issue-repo --all --verbose run doSomething ",
+    "doSomething:parallel": "yarn workspaces foreach --exclude issue-repo --parallel --verbose run doSomething",
+    "doSomething:workaround": "yarn workspaces foreach --exclude issue-repo --all --parallel --topological-dev --verbose run doSomething"
+  }
+}
