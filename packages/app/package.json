@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "yarn dev:webpack",
+    "dev:webpack": "cross-env NODE_ENV=development webpack serve --mode development"
+  },
+  "dependencies": {
+    "@ag-grid-community/core": "26.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/preset-env": "7.15.8",
+    "@babel/preset-react": "7.14.5",
+    "babel-loader": "8.2.2",
+    "cross-env": "7.0.3",
+    "css-loader": "6.4.0",
+    "cssnano": "5.0.8",
+    "html-webpack-plugin": "5.3.2",
+    "mini-css-extract-plugin": "2.4.2",
+    "resolve": "1.20.0",
+    "sass": "1.43.2",
+    "sass-loader": "12.2.0",
+    "webpack": "5.58.2",
+    "webpack-cli": "4.9.0",
+    "webpack-dev-server": "4.3.1"
+  }
+}

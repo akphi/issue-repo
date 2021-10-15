@@ -1,0 +1,19 @@
+{
+  "name": "issue-repo",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "check:update": "yarn upgrade-interactive",
+    "dev": "yarn workspace app dev"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "engines": {
+    "node": ">=14.17.1",
+    "yarn": ">=1.22.10"
+  }
+}
