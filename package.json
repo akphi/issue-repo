@@ -5,11 +5,28 @@
   "workspaces": [
     "packages/*"
   ],
+  "packageManager": "yarn@3.2.0",
   "scripts": {
-    "doSomething:standard": "yarn workspaces foreach --verbose run doSomething",
-    "doSomething:all": "yarn workspaces foreach --all --verbose run doSomething ",
-    "doSomething:parallel": "yarn workspaces foreach --parallel --verbose run doSomething",
-    "doSomething:workaround": "yarn workspaces foreach --all --parallel --topological-dev --verbose run doSomething"
+    "dev": "webpack serve --mode development",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
-  "packageManager": "yarn@3.2.0"
+  "dependencies": {
+    "@babel/core": "7.17.10",
+    "@babel/preset-env": "7.17.10",
+    "@babel/preset-react": "7.16.7",
+    "@testing-library/dom": "8.13.0",
+    "@testing-library/react": "13.2.0",
+    "babel-loader": "8.2.5",
+    "html-webpack-plugin": "5.5.0",
+    "jest": "28.1.0",
+    "jest-environment-jsdom": "28.1.0",
+    "mobx": "6.5.0",
+    "mobx-react-lite": "3.4.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "webpack": "5.72.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.9.0"
+  }
 }
