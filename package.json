@@ -8,13 +8,14 @@
   "scripts": {
     "build:ts": "tsc --build",
     "dev:ts": "tsc --build --watch",
-    "doc": "yarn typedoc --name \"Samplr\" --hideGenerator --gitRemote upstream --gitRevision master",
+    "doc": "yarn typedoc --name \"Sample\" --hideGenerator --gitRemote upstream --gitRevision master",
+    "doc:local": "node ../typedoc/bin/typedoc --name \"Samplr\" --hideGenerator --gitRemote upstream --gitRevision master",
     "doc:resolve": "yarn typedoc --options typedoc.resolve.json --name \"Sample\" --hideGenerator --gitRemote upstream --gitRevision master",
     "repro": "yarn build:ts && yarn doc",
     "repro:resolve": "yarn build:ts && yarn doc:resolve"
   },
   "devDependencies": {
-    "typedoc": "0.23.3",
+    "typedoc": "0.23.4",
     "typescript": "4.7.4"
   },
   "packageManager": "yarn@3.2.0"
