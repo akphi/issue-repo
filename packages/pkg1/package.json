@@ -1,7 +1,8 @@
 {
   "name": "pkg1",
   "version": "0.0.0",
-  "scripts": {
-    "doSomething": "error"
-  }
+  "devDependencies": {
+    "typescript": "4.7.4"
+  },
+  "typedocMain": "./src/index.ts"
 }

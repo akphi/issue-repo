@@ -1,0 +1,35 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "out": "build/docs",
+  "entryPoints": ["packages/*"],
+  "entryPointStrategy": "Packages",
+  "exclude": [
+    // TODO: to be revised when `--exclude` work with `--entryPointStrategy packages`
+    // See https://github.com/TypeStrong/typedoc/issues/1959
+    "**/*.js",
+    "**/__tests__/**",
+    "**/__mocks__/**",
+    "**/node_modules/**",
+    "**/lib/**"
+  ],
+  "intentionallyNotExported": [],
+  "excludeExternals": false,
+  "excludeInternal": true,
+  "excludePrivate": true,
+  "excludeNotDocumented": true,
+  "treatWarningsAsErrors": false,
+  "validation": {
+    "notExported": false,
+    "invalidLink": true,
+    "notDocumented": false
+  },
+  "readme": "README.md",
+  "visibilityFilters": {
+    "protected": false,
+    "private": false,
+    "inherited": true,
+    "external": false,
+    "@internal": false
+  },
+  "logLevel": "Verbose"
+}

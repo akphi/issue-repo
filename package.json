@@ -6,10 +6,14 @@
     "packages/*"
   ],
   "scripts": {
-    "doSomething:standard": "yarn workspaces foreach --verbose run doSomething",
-    "doSomething:all": "yarn workspaces foreach --all --verbose run doSomething ",
-    "doSomething:parallel": "yarn workspaces foreach --parallel --verbose run doSomething",
-    "doSomething:workaround": "yarn workspaces foreach --all --parallel --topological-dev --verbose run doSomething"
+    "build:ts": "tsc --build",
+    "dev:ts": "tsc --build --watch",
+    "doc": "yarn typedoc --name \"Legend Studio\" --hideGenerator --gitRemote upstream --gitRevision master",
+    "repro": "yarn build:ts && yarn doc"
+  },
+  "devDependencies": {
+    "typedoc": "0.23.3",
+    "typescript": "4.7.4"
   },
   "packageManager": "yarn@3.2.0"
 }
