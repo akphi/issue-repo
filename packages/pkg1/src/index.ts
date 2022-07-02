@@ -1,3 +1,6 @@
 import packageJson from "../package.json";
 
-export const VERSION = packageJson.version;
+/**
+ * A version
+ */
+export const VERSION1 = packageJson.version;
