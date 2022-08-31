@@ -1392,7 +1392,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:18.7.14":
+"@types/node@npm:*":
   version: 18.7.14
   resolution: "@types/node@npm:18.7.14"
   checksum: 99cf28ff854100158de875cca23c7acc3cc01dfee526a52b90b7f36767c821bcbaf2be0a98a70f06f3b78f3c60639168ff949d725b61e2e124f9f71f1fb8043d
@@ -4879,16 +4879,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"legend-studio@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "legend-studio@workspace:."
-  dependencies:
-    "@finos/legend-dev-utils": " 2.0.13"
-    "@types/node": 18.7.14
-    typescript: 4.8.2
-  languageName: unknown
-  linkType: soft
-
 "leven@npm:^3.1.0":
   version: 3.1.0
   resolution: "leven@npm:3.1.0"
@@ -5860,9 +5850,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pkg1@workspace:packages/pkg1":
+"pkg1@workspace:.":
   version: 0.0.0-use.local
-  resolution: "pkg1@workspace:packages/pkg1"
+  resolution: "pkg1@workspace:."
   dependencies:
     "@finos/legend-dev-utils": " 2.0.13"
     "@finos/legend-graph": " 14.0.5"
