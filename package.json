@@ -2,14 +2,12 @@
   "name": "issue-repo",
   "private": true,
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
-    "doSomething:standard": "yarn workspaces foreach --verbose run doSomething",
-    "doSomething:all": "yarn workspaces foreach --all --verbose run doSomething ",
-    "doSomething:parallel": "yarn workspaces foreach --parallel --verbose run doSomething",
-    "doSomething:workaround": "yarn workspaces foreach --all --parallel --topological-dev --verbose run doSomething"
+    "dev:ts": "tsc --watch --preserveWatchOutput"
   },
-  "packageManager": "yarn@3.2.0"
+  "dependencies": {
+    "@finos/legend-shared": "6.0.3",
+    "serializr": "2.0.5",
+    "typescript": "4.8.2"
+  }
 }
