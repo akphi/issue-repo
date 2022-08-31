@@ -1,7 +1,7 @@
 import { createModelSchema, primitive } from "serializr";
 import { SerializationFactory } from "@finos/legend-shared";
 
-class A {
+export class A {
   name = "";
 
   static readonly serialization = new SerializationFactory(
