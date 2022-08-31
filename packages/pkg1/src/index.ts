@@ -1,4 +1,5 @@
 import { createModelSchema, primitive } from "serializr";
+import { PureModel } from "@finos/legend-graph";
 import { SerializationFactory } from "@finos/legend-shared";
 
 export class A {

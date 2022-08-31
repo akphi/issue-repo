@@ -1,0 +1,32 @@
+{
+  "name": "pkg1",
+  "version": "0.0.0",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": "./lib/index.js",
+    "./lib/index.css": "./lib/index.css"
+  },
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "dev:ts": "tsc --watch --preserveWatchOutput"
+  },
+  "dependencies": {
+    "@finos/legend-application": "7.1.5",
+    "@finos/legend-application-studio": "15.0.1",
+    "@finos/legend-art": "3.0.3",
+    "@finos/legend-graph": "14.0.5",
+    "@finos/legend-shared": "6.0.3",
+    "@finos/legend-storage": "3.0.7",
+    "@types/react": "18.0.18",
+    "mobx": "6.6.1",
+    "mobx-react-lite": "3.4.0",
+    "react": "18.2.0",
+    "serializr": "2.0.5"
+  },
+  "devDependencies": {
+    "@finos/legend-dev-utils": "2.0.13",
+    "typescript": "4.8.2"
+  }
+}
