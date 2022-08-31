@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    // "lib": ["dom", "dom.iterable", "esnext", "webworker", "scripthost"],
+    "skipLibCheck": true, // skip type checking of all declaration files (*.d.ts)
     "composite": true,
     "declaration": true,
     "target": "esnext",

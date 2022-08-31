@@ -12,8 +12,12 @@
     "dev:ts": "tsc --watch --preserveWatchOutput"
   },
   "dependencies": {
+    "@types/node": "18.7.14",
     "@finos/legend-shared": " 6.0.3",
-    "serializr": "2.0.5"
+    "serializr": "2.0.5",
+    "lodash-es": "4.17.21",
+    "lossless-json": "1.0.5",
+    "object-hash": "3.0.0"
   },
   "devDependencies": {
     "typescript": "4.8.2"
