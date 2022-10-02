@@ -2,14 +2,6 @@
   "name": "issue-repo",
   "private": true,
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "doSomething:standard": "yarn workspaces foreach --verbose run doSomething",
-    "doSomething:all": "yarn workspaces foreach --all --verbose run doSomething ",
-    "doSomething:parallel": "yarn workspaces foreach --parallel --verbose run doSomething",
-    "doSomething:workaround": "yarn workspaces foreach --all --parallel --topological-dev --verbose run doSomething"
-  },
+  "scripts": {},
   "packageManager": "yarn@3.2.0"
 }
