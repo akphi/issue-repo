@@ -2,6 +2,14 @@
   "name": "issue-repo",
   "private": true,
   "type": "module",
-  "scripts": {},
-  "packageManager": "yarn@3.2.0"
+  "scripts": {
+    "dev:ts": "tsc"
+  },
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "sql-formatter": "11.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.8.4"
+  }
 }

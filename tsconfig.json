@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    // "moduleResolution": "node" // <-- this will work fine
+    "module": "NodeNext" // <-- this will not work
+    // "skipLibCheck": true
+  }
+}
