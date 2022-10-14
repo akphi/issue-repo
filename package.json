@@ -5,6 +5,7 @@
   "scripts": {
     "build:ts": "tsc --project ./tsconfig.json",
     "dev": "yarn build:ts && yarn start",
+    "start:js": "node index.js",
     "start": "node lib/index.js"
   },
   "dependencies": {
