@@ -12,6 +12,7 @@
     "dev:ts": "tsc --watch --preserveWatchOutput"
   },
   "dependencies": {
+    "@finos/legend-shared": "0.0.0",
     "@types/node": "18.7.14",
     "lodash-es": "4.17.21",
     "lossless-json": "1.0.5",
