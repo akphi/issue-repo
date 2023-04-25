@@ -3,21 +3,19 @@
 
 __metadata:
   version: 6
+  cacheKey: 8
 
 "issue-repo@workspace:.":
   version: 0.0.0-use.local
   resolution: "issue-repo@workspace:."
+  dependencies:
+    serializr: 3.0.2
   languageName: unknown
   linkType: soft
 
-"pkg1@workspace:packages/pkg1":
-  version: 0.0.0-use.local
-  resolution: "pkg1@workspace:packages/pkg1"
-  languageName: unknown
-  linkType: soft
-
-"pkg2@workspace:packages/pkg2":
-  version: 0.0.0-use.local
-  resolution: "pkg2@workspace:packages/pkg2"
-  languageName: unknown
-  linkType: soft
+"serializr@npm:3.0.2":
+  version: 3.0.2
+  resolution: "serializr@npm:3.0.2"
+  checksum: 4276e0418eef9e30aab9557d299f028396e448a2ec8f4838bffb04e757f7d03bc012d85ff5a60e9260fb9cce6f52b6fba80266f5634eece8f48dc3b9f948dfb9
+  languageName: node
+  linkType: hard
